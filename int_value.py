@@ -1,0 +1,9 @@
+a=int(input("Enter value of A:"))
+b=int(input("Enter value of B:"))
+
+if a==b:
+    print("True")
+else:
+    print("False")
+
+
