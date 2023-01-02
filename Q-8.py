@@ -1,7 +1,3 @@
-A=str(input("enter a alphabet : "))
-if A == "a""e""i""o""u":
-    print(" alphabet are vowel")
-else :
-    print("alphabet are not vowel")
-
-  
+list1=[1,2,3,4,1]
+list=[*set(list1)] #------method of remove duplicate value [*set(listname)]
+print(list)                                               #-- ---- ----------#

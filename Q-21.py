@@ -1,6 +1,16 @@
-name=input("enter a name:")
+# Python3 code to convert a tuple
+# into a string using a for loop
 
-if(len(name)%4==0):
-   print(name[::-1])
-else:
-   print("cant")
+
+def convertTuple(tup):
+		# initialize an empty string
+	str = ''
+	for item in tup:
+		str = str + item
+	return str
+
+
+# Driver code
+tuple = ('p', 'r', 'i', 'y', 'u')
+str = convertTuple(tuple)
+print(str)

@@ -1,9 +1,3 @@
-def string_both_ends(str):  
-  if len(str) < 2:  
-    return ''  
-  
-  return str[0:2] + str[-2:]  
-  
-print(string_both_ends('w3resource'))  
-print(string_both_ends('w3'))  
-print(string_both_ends('w'))  
+tuplex = ("w", 3, "r", "e", "s", "o", "u", "r", "c", "e")
+print("r" in tuplex)
+print(5 in tuplex)

@@ -1,12 +1,23 @@
-#take strings from user
-str1 = input("Please Enter First String : ")
-str2 =input("Please Enter Second String : ")
-
-x=str1[0:2]
-
-str1=str1.replace(str1[0:2],str2[0:2])
-
-str2=str2.replace(str2[0:2],x)
-
-print("Your first string has become :- ",str1)
-print("Your second string has become :- ",str2)
+# Python3 code to demonstrate working of 
+# Check for Sublist in List
+# Using loop + list slicing
+  
+# initializing list
+test_list = [5, 6, 3, 8, 2, 1, 7, 1]
+  
+# printing original list 
+print("The original list :"+ str(test_list))
+  
+# initializing sublist 
+sublist = [8, 2, 1]
+  
+# Check for Sublist in List
+# Using loop + list slicing
+res = False
+for idx in range(len(test_list) - len(sublist) + 1):
+        if test_list[idx : idx + len(sublist)] == sublist:
+            res = True 
+            break
+          
+# printing result 
+print("Is sublist present in list ? :"+ str(res))

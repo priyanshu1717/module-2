@@ -1,20 +1,9 @@
-a=15
-b=16
-c=15
-sum=a+b+c
-if a!=b!=c!=a:
-    print(sum)
-else:
-    print(0)  
-
-#input from user.
-
-a=(input(" enter a value of a : "))
-b=(input("enter a value of b : "))
-c=(input("enter a value of c : "))
-
-sum=a+b+c
-if a!=b!=c!=a:
-    print(sum)
-else:
-    print(0)  
+try:
+    list=('s','d','f')
+    x=list.count(list)
+    if len(list)==0:
+        print("your list is empty")
+    else:
+        print(x)
+except Exception as er:
+    print(er)        

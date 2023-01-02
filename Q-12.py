@@ -1,4 +1,9 @@
-#write a program claculate the length of string.
+def unique_list(numbers):
+    unique = []
+    for item in numbers :
+        if item not in unique:
+            unique.append(item)
+    return unique
 
-string = "priyanshu sorathiya"
-print(len(string))
+print(unique_list([1, 2, 3, 1, 2]))
+# [1, 2, 3]
